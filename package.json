@@ -1,0 +1,44 @@
+{
+  "name": "pi-seance-beacon",
+  "version": "0.1.0",
+  "description": "Pi extension beacon — captures agent session id + cwd + tmux/wezterm coords so the seance CLI can resurrect the exact layout later. Capture side of the seance project.",
+  "license": "MIT",
+  "author": "buihongduc132",
+  "private": false,
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "pi-coding-agent",
+    "seance",
+    "tmux",
+    "wezterm",
+    "session-resume"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buihongduc132/pi-seance-beacon.git"
+  },
+  "bugs": "https://github.com/buihongduc132/pi-seance-beacon/issues",
+  "homepage": "https://github.com/buihongduc132/pi-seance-beacon",
+  "publishConfig": { "access": "public" },
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "tsx": "^4.23.1",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
