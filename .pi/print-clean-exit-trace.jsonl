@@ -1,0 +1,12 @@
+{"ts":"2026-07-16T15:53:08.620Z","phase":"disarm","source":"pi-print-clean-exit","pid":176827,"ppid":176819,"reason":"agent_start"}
+{"ts":"2026-07-16T15:53:08.650Z","phase":"disarm","source":"pi-print-clean-exit","pid":176828,"ppid":176819,"reason":"agent_start"}
+{"ts":"2026-07-16T15:55:26.546Z","phase":"agent_end_seen","source":"pi-print-clean-exit","pid":176828,"ppid":176819,"mode":"json","hasPending":false,"isHeadless":true}
+{"ts":"2026-07-16T15:55:26.547Z","phase":"arm_clean_exit","source":"pi-print-clean-exit","pid":176828,"ppid":176819,"mode":"json","hasPending":false,"exitGraceMs":1500,"exitCode":0}
+{"ts":"2026-07-16T15:55:28.047Z","phase":"safe_exit","source":"pi-print-clean-exit","pid":176828,"ppid":176819,"code":0}
+{"ts":"2026-07-16T15:55:56.013Z","phase":"agent_end_seen","source":"pi-print-clean-exit","pid":176827,"ppid":176819,"mode":"json","hasPending":false,"isHeadless":true}
+{"ts":"2026-07-16T15:55:56.013Z","phase":"arm_clean_exit","source":"pi-print-clean-exit","pid":176827,"ppid":176819,"mode":"json","hasPending":false,"exitGraceMs":1500,"exitCode":0}
+{"ts":"2026-07-16T15:55:57.514Z","phase":"safe_exit","source":"pi-print-clean-exit","pid":176827,"ppid":176819,"code":0}
+{"ts":"2026-07-16T15:56:02.912Z","phase":"disarm","source":"pi-print-clean-exit","pid":227643,"ppid":176819,"reason":"agent_start"}
+{"ts":"2026-07-16T15:56:28.515Z","phase":"agent_end_seen","source":"pi-print-clean-exit","pid":227643,"ppid":176819,"mode":"json","hasPending":false,"isHeadless":true}
+{"ts":"2026-07-16T15:56:28.515Z","phase":"arm_clean_exit","source":"pi-print-clean-exit","pid":227643,"ppid":176819,"mode":"json","hasPending":false,"exitGraceMs":1500,"exitCode":0}
+{"ts":"2026-07-16T15:56:30.017Z","phase":"safe_exit","source":"pi-print-clean-exit","pid":227643,"ppid":176819,"code":0}
